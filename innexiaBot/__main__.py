@@ -218,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message
+        update.effective_message .reply_photo(
             INNEXIA_IMG, caption= "Hi there, I'm online ^_^".format(
                 uptime
             ),
